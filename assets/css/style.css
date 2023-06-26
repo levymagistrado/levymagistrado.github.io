@@ -9,10 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
-  font-family: 'MemphisRiver';
-  src: url(../../fonts/MemphisRiver.otf);
-}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
