@@ -284,9 +284,11 @@ h6 {
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 900px) {
   #hero {
-    padding-left: 160px;
+    background: url("../img/mobile-bg.jpg"); 
+    background-size: cover;
+    background-position: center;
   }
 }
 
@@ -307,14 +309,6 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #ffffff;
-}
-#hero h3 {
-  position: absolute;
-  font-family: 'MemphisRiver';
-  font-size: 110px;
-  color: #fc8435;
-  margin-left: 57%;
-  margin-bottom: 38%;
 }
 
 #hero p {
